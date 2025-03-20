@@ -146,9 +146,8 @@ namespace Quinn.PlayerSystem
 		public async void RespawnSequence()
 		{
 			await SceneManager.LoadSceneAsync(1);
-
 			SpawnPlayer(InitialSpawnOffset);
-			DungeonGenerator.Instance.StartFloorOfCurrentIndex();
+			//DungeonGenerator.Instance.StartFloorOfCurrentIndex();
 		}
 
 		public void MarkVictoryTime()
